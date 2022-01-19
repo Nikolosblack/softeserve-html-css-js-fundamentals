@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    padding: 90px 0;
+}
+
+header.section_header {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+}
+
+header.section_header > h2 {
+    position: relative;
+    font-size: 52px;
+    line-height: 1.14;
+    font-weight: 400;
+    color: #222323; 
+    margin-bottom: 30px;
+}
+
+header.section_header > h2 > .dot--color {
+    color: #f40106; 
+}
+
+header.section_header > h2:after {
+    content:"";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, -50%);
+    height: 2px;
+    width: 93.6px;
+    background-color: rgb(224, 224, 224); 
+}
+
+header.section_header > p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #717474; 
+    text-transform: none; 
+}
+
+.brand__slider {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.brand__slider .slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brand__slider .slider__container {
+    padding: 0 40px;
+}
+
+.slider__inner .brand-item {
+    border: 2px solid #e0e0e0;
+    margin: 0 15px;
+    width: 263px;
+    height: 158px;
+    margin-bottom: 10px;
+}
+
+.slider__inner .brand-item img { 
+    display: block;
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+    object-fit: contain;
+    width: 100%;
+}
+
+span {
+    display: inline-block;
+}
+
+.slider .priv_arrow img {
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    opacity: .85;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity .2s ease-out;
+    transform: translate(-50%, -50%);
+}
+
+.slider .next_arrow img  {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    opacity: .85;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity .2s ease-out;
+    transform: translate(50%, -50%);
+}
+
+.slider .priv_arrow img:hover,
+.slider .next_arrow img:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
