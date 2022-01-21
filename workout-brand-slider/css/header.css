@@ -134,8 +134,8 @@ header .top_bar_contact a:hover {
 }
 
 .wrapper-menu {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
