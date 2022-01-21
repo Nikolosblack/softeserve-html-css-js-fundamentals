@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
+:root {
+  
+    --main-red-color: rgb(244, 1, 6);
+    --main-black-color: rgb(34, 35, 35);
+    --main-gray-color: rgb(113, 116, 116);
+    --main-white-color: rgb(255, 255, 255);
+    --divider-gray-color:rgb(224, 224, 224);
+    --countdown-border:#9b9b9b;
+    font-family: 'Bebas Neue', cursive;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +27,11 @@ a {
     display: inline-block;
 }
 
+.container {
+     max-width: 1200px;
+    margin: 0 auto;
+}
+
 header.section_header {
     font-family: 'Bebas Neue', cursive;
     display: flex;
@@ -23,10 +39,10 @@ header.section_header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 60px;
+    /* padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px; */
   
 }
 
