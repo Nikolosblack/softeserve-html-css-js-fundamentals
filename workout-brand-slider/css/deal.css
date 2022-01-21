@@ -69,9 +69,7 @@
     line-height: 62px;
 }
 
-.column__content .column-1 .text-color {
-    color: var(--main-red-color); 
-}
+
 
 .column__content .column-1 .deal-price {
     margin-top: 28px;
@@ -81,7 +79,7 @@
     font-weight: bold;
 }
 
-.column__content .column-1 .deal-price .text-color {
+.column__content .column-1 .deal-price .text-brand-color {
     font-size: 42px;
     font-weight: bold;
 }

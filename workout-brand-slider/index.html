@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,18 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,7 +36,7 @@
             </div>
         </div>
         <nav class="navbar-bg-dark">
-            <div class="navbar">
+            <div class="navbar container">
                 <div class="nav_wrapper">
                     <div class="nav-logo">
                         <img src="./images/header/logo.svg" alt="">
@@ -55,11 +61,24 @@
                     <div class="line-menu half start"></div>
                     <div class="line-menu"></div>
                     <div class="line-menu half end"></div>
-                  </div>
+                </div>
             </div>
         </nav>
     </header>
     <main>
+        <section class="hero">
+            <div class="hero__inner">
+                <div class="container">
+                    <div class="hero_content">
+                        <p>Aspire to more</p>
+                        <h1>New <span class="text-brand-color">collections</span> by top brands<span class="text-brand-color">.</span></h1>
+                        <div class="btn__wrapper">
+                            <a class="btn btn--red" href="">Show Now<img src="/arrow-right-btn.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="brand__slider">
             <div class="slider__container">
                 <div class="slider__content">
@@ -128,13 +147,14 @@
                     <div class="column__content">
                         <div class="column-1">
                             <div class="flex__wrapper">
-                                <p class="deal-title">DEAL OF THE MONTH<span class="text-color">.</span></p>
+                                <p class="deal-title">DEAL OF THE MONTH<span class="text-brand-color">.</span></p>
                                 <h4 class="deal-price">
                                     <span class="font-w">PUMA SPORTS BRA</span>
-                                    <span class="text-color">$50</span>
+                                    <span class="text-brand-color">$50</span>
                                     <del><span>$70</span></del>
                                 </h4>
-                                <p class="deal-subtitle">Start your fitness story right away with this comfortable bra and
+                                <p class="deal-subtitle">Start your fitness story right away with this comfortable bra
+                                    and
                                     get advantage of our discount.</p>
                                 <div class="btn-holder">
                                     <a class="btn-deal">More Details</a>
@@ -189,9 +209,12 @@
         </section>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/brand-slider.js"></script>
     <script src="./js/countdown.js"></script>
     <script src="./js/burger.js"></script>
 </body>
+
 </html>
