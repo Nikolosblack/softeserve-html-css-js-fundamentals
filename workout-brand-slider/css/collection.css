@@ -79,6 +79,12 @@
     .shop__collection {
         padding-top: 120px;
     padding-bottom: 60px;
+  
+    }
+
+    .collection__inner {
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .collection {
         display: grid;
