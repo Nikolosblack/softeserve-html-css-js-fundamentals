@@ -26,6 +26,7 @@
 }
 
 .hero_content h1 {
+    font-family: 'Bebas Neue', cursive;
     font-size: 62px;
     line-height: 62px;
     font-weight: 400;
@@ -43,7 +44,8 @@
 
 @media(min-width:768px) {
     .hero {
-        min-height: 120vh;
+        min-height: 900px;
+        height: 100%;
         padding-top: 160px;
         padding-bottom: 160px;
     }

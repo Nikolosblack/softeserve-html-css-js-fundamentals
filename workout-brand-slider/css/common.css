@@ -9,7 +9,8 @@
     --main-white-color: rgb(255, 255, 255);
     --divider-gray-color:rgb(224, 224, 224);
     --countdown-border:#9b9b9b;
-    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'PT Sans' ,sans-serif;
 }
 
 * {
