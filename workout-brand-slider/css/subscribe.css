@@ -58,6 +58,7 @@
     color: #222323;
     background-color: rgba(34, 35, 35, 0.12);
     border: none;
+    border-radius: 0;
 }
 
 .form__subscribe input[type=text]:focus {
@@ -75,6 +76,7 @@
     cursor: pointer;
     background-color: var(--main-red-color);
     border: none;
+    border-radius: 0;
 }
 
 .form__subscribe input[type=submit]:hover {
