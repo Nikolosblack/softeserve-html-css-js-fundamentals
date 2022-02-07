@@ -88,7 +88,6 @@
 .column__content .column-1 .deal-price del {
     font-size: 23px;
     font-weight: bold;
-   
 }
 
 .deal-price del span {
@@ -266,4 +265,5 @@
         position: absolute;
         height: 100%;
     }
+    
 }

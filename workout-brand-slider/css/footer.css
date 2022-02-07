@@ -132,8 +132,16 @@
     }
 
     .footer__nav .footer__nav__item {
-        width: 25%;
-        margin:0;
+        flex-basis: 25%;
+        margin: 0;
+    }
+
+    .footer__nav__item img {
+        margin-left: 0;
+    }
+
+    .footer__nav__item:first-child {
+        
     }
 
     .footer__nav__item:last-child {
@@ -156,5 +164,20 @@
 
     .divider__footer__wrapper {
         width: 100%;
+    }
+
+    .footer__copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__nav__item p {
+     text-align: left;
+    }
+
+    .footer__copyright p, 
+    .footer__copyright p:not(:first-child) {
+        margin: 5px 0;
     }
 }
