@@ -212,6 +212,26 @@ header .top_bar_contact a:hover {
   }
 }
 
+@media (max-width: 320px) {
+    .navbar-bg-dark {
+        padding: 15px 30px;
+    }
+    nav .navigation-wrapper {
+        padding-top: 10px;
+    }
+    nav .nav__inner .nav_list li {
+        margin: 15px 0;
+    }
+    nav .nav__inner .nav_list li a,
+    nav .nav__inner p,
+    nav .nav__inner  a{
+        font-size: 14px;
+    }
+    nav .nav__inner p {
+        margin-top: 15px;
+    }
+}
+
 @media (max-width: 992px) {
     body.lock {
         overflow: hidden;
