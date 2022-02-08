@@ -70,52 +70,44 @@
     display: grid; 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 250px;
-   
     gap: 30px; 
     grid-template-areas: 
       "aaa sss"
       "ddd ddd"
       "ddd ddd"; 
-  }
-    .ddd { grid-area: ddd; }
-    .aaa { grid-area: aaa; }
-    .sss { grid-area: sss; }
-
-    .sale__goods .sale-item-bg:nth-child(2)
-    {
+    }
+    .ddd {
+         grid-area: ddd;
+    }
+    .aaa { 
+        grid-area: aaa;
+    }
+    .sss {
+         grid-area: sss; 
+    }
+    .sale__goods .sale-item-bg:nth-child(2) {
         margin-top: 0;
     }
-
     .sale__goods .sale-item-bg:nth-child(3) {
       gap: 30px;
       margin-top: 0;
     }
-
     .sale__content p {
-     
         font-size: 33px;
     }
 }
 
 @media(min-width:992px) {
-
     .sale__goods {
         grid-template-columns: 1fr 1fr 1fr; 
         grid-template-rows: 1fr ;
         grid-template-areas: 
         "aaa sss ddd"
-    
     }
-
-   .sale-item-bg {
-     
-    }
-
     .sale__goods .sale-item-bg:nth-child(1),
     .sale__goods .sale-item-bg:nth-child(2),
     .sale__goods .sale-item-bg:nth-child(3)
     {
-        /* min-height: 250px ; */
         margin-top: 0;
     }
 }

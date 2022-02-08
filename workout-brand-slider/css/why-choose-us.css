@@ -1,7 +1,5 @@
-
 .why_choose_us-block {
     padding: 50px 24px 90px 24px;
-   
 }
 
 .all-cards {
@@ -11,7 +9,6 @@
 }
 
 .all-cards .card {
-
     margin-bottom: 30px;
 }
 
@@ -24,18 +21,17 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    border: 2px solid #e0e0e0;
+    border: 2px solid var(--divider-gray-color);
 }
 
 .card-item img {
     max-width: 50px;
-    color: gray;
+    color: var(--main-gray-color);
 }
 
 .card-item h4 {
     font-family: 'Bebas Neue', cursive;
     margin-top: 20px;
-    font-family: ;
     font-size: 22px;
     font-weight: 400;
 }
@@ -43,7 +39,7 @@
 .card-item p {
     margin-top: 20px;
     font-family: 'PT Sans' ,sans-serif;
-    color: gray;
+    color: var(-main-gray-color);
 }
 
 @media (min-width: 768px) {
@@ -55,7 +51,7 @@
     .card {
         flex-basis: 50%;
         padding-left: 15px;
-    padding-right: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -66,7 +62,6 @@
     .card-item h4 {
         font-size: 24px;
     }
-
     .all-cards .card .card-item {
         padding: 30px 20px;
     }

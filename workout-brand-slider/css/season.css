@@ -5,7 +5,6 @@
     padding-bottom: 90px;
 }
 
-
 .season__item {
     display: flex;
     flex-direction: column;
@@ -20,7 +19,7 @@
     display: inline-block;
     font-size: 18px;
     margin-top: 8px;
-    color: rgb(113, 116, 116);  
+    color: var(--main-gray-color);  
 }
 
 .season__item p a:hover {
@@ -44,20 +43,17 @@
     color: #fff;
     font-size: 15px;
     font-weight: 700;
-   
     padding: 15px 26px;
     line-height: 19.9px;
 }
 
 .season__item .btn__wrapper a:hover {
-    background-color: #f40106;
+    background-color: var(--main-red-color);
 }
 
 .season__item {
     margin-top: 50px;
-
 }
-
 
 @media(min-width:479px) {
 
@@ -66,14 +62,12 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
     .season__wrapper .season__item {
         flex-basis: 50%;
         max-width: 50%;
         padding: 0 15px;
         gap: 20px;
     }
-
     .season__wrapper .season__item-5 {
         flex-basis: 100%;
         max-width: 100%;
@@ -90,19 +84,16 @@
         flex-basis: 33%;
         max-width: 33%;
     }
-
     .season__wrapper .season__item-4,
     .season__wrapper .season__item-5 {
         flex-basis: 50%;
         max-width: 50%;
     }
-
 }
 
 @media(min-width:992px) {
     .season__wrapper .season__item {
         flex-basis: 20%;
-    max-width: 20%;
+        max-width: 20%;
     }
-
 }

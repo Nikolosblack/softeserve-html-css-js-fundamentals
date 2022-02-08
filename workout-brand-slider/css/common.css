@@ -2,14 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 :root {
-  
     --main-red-color: rgb(244, 1, 6);
     --main-black-color: rgb(34, 35, 35);
     --main-gray-color: rgb(113, 116, 116);
     --main-white-color: rgb(255, 255, 255);
     --divider-gray-color:rgb(224, 224, 224);
     --countdown-border:#9b9b9b;
-    /* font-family: 'Bebas Neue', cursive; */
     font-family: 'PT Sans' ,sans-serif;
 }
 
@@ -29,7 +27,7 @@ a {
 }
 
 .text-brand-color {
-    color: #f40106; 
+    color: var(--main-red-color); 
 }
 
 .container {
@@ -45,11 +43,6 @@ header.section_header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 15px;
-    padding-right: 15px; */
-  
 }
 
 header.section_header > h2 {
@@ -57,7 +50,7 @@ header.section_header > h2 {
     font-size: 52px;
     line-height: 1.14;
     font-weight: 400;
-    color: #222323; 
+    color: var(--main-black-color); 
     margin-bottom: 30px;
 }
 
@@ -70,7 +63,7 @@ header.section_header > h2:after {
     transform: translate(-50%, -50%);
     height: 2px;
     width: 93.6px;
-    background-color: rgb(224, 224, 224); 
+    background-color: var(--divider-gray-color); 
 }
 
 header.section_header > p {
@@ -79,12 +72,11 @@ header.section_header > p {
     font-family: 'PT Sans' ,sans-serif;
     font-weight: 400;
     letter-spacing: 0;
-    color: #717474; 
+    color: var(--main-gray-color); 
     text-transform: none; 
 }
 
 .hero_content .btn__wrapper {
- 
     margin-top: 50px;
 }
 

@@ -20,7 +20,7 @@
 }
 
 .slider__inner .brand-item {
-    border: 2px solid #e0e0e0;
+    border: 2px solid var(--divider-gray-color);
     margin: 0 15px;
     width: 263px;
     height: 158px;
@@ -47,7 +47,7 @@ span {
     width: 30px;
     height: 30px;
     opacity: .7;
-    background-color: gray;
+    background-color: var(--main-gray-color);
     padding: 5px;
     text-align: center;
     cursor: pointer;
@@ -63,7 +63,7 @@ span {
     width: 30px;
     height: 30px;
     opacity: .85;
-    background-color: gray;
+    background-color: var(--main-gray-color);
     padding: 5px;
     text-align: center;
     cursor: pointer;
@@ -71,8 +71,6 @@ span {
     transform: translate(50%, -50%);
     z-index: 1;
 }
-
-
 
 .slider .priv_arrow img:hover,
 .slider .next_arrow img:hover {
@@ -88,7 +86,6 @@ span {
         background-color: transparent;
         padding: 0;
     }
-
     .slider .next_arrow img {
         right: -15px;
         background-color: transparent;

@@ -14,7 +14,6 @@
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
-   
 }
 
 .subcribe__content > img {
@@ -26,9 +25,8 @@
 .subcribe__content > p {
     font-size: 14px;
     font-weight: 700;
-    color: rgb(34, 35, 35);
+    color: var(--main-black-color);
     margin: 7.5px;
-
 }
 
 .subcribe__content > p > span {
@@ -38,15 +36,14 @@
 
 .form__inner {
     padding: 0 24px;
-  
 }
 
 .form__subscribe {
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .form__subscribe input[type=text] {
@@ -55,7 +52,7 @@
     padding: 15px 26px;
     font-size: 15px;
     line-height: 1.3333;
-    color: #222323;
+    color: var(--main-black-color);
     background-color: rgba(34, 35, 35, 0.12);
     border: none;
     border-radius: 0;
@@ -65,12 +62,10 @@
     outline-color: #3b99fc;
 }
 
-
-
 .form__subscribe input[type=submit] {
     margin-top: 24px;
     font-size: 15px;
-    color: #fff;
+    color: var(--main-white-color);
     padding: 15px 26px;
     font-weight: 700;
     cursor: pointer;

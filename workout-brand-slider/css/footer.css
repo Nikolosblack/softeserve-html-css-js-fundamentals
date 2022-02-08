@@ -1,6 +1,6 @@
 .footer {
     padding: 70px 24px  0 24px;
-    background-color: rgb(34 35 35);
+    background-color: var(--main-black-color);
     color: #fff;
 }
 
@@ -58,7 +58,7 @@
 .divider__footer__wrapper .divider {
     height: 2px;
     width: 30%;
-    background-color: #f40106;
+    background-color: var(--main-red-color);
     margin: auto;
 }
 
@@ -74,10 +74,9 @@
 }
 
 .footer__nav__item li a:hover {
-    color: #f40106;
+    color: var(--main-red-color);
     text-decoration: underline;
 }
-
 
 .footer__icons {
     display: flex;
@@ -85,7 +84,6 @@
     align-items: center;
     padding-bottom: 45px;
 }
-
 
 .footer__icons li {
     margin-right: 7.5px;
@@ -98,14 +96,14 @@
     align-items: center;
     width: 30px;
     height: 30px;
-    border: 1px solid #f40106;
+    border: 1px solid var(--main-red-color);
     color: #f40106;
 }
 
 .footer__icons li a:hover {
     text-decoration: none;
     color: black;
-    background-color: #f40106;
+    background-color: var(--main-red-color);
 }
 
 .footer__copyright {
@@ -130,52 +128,38 @@
         flex-wrap: wrap;
         padding-bottom: 45px;
     }
-
     .footer__nav .footer__nav__item {
         flex-basis: 25%;
         margin: 0;
     }
-
     .footer__nav__item img {
         margin-left: 0;
     }
-
-    .footer__nav__item:first-child {
-        
-    }
-
     .footer__nav__item:last-child {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
     }
-
     .footer__nav__item:last-child > .divider__footer__wrapper .divider {
         margin-right: 0;
     }
-
     .footer__icons {
         padding-bottom: 0;
     }
-
     .footer__icons li:last-child {
         margin-right: 0;
     }
-
     .divider__footer__wrapper {
         width: 100%;
     }
-
     .footer__copyright {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
     .footer__nav__item p {
-     text-align: left;
+        text-align: left;
     }
-
     .footer__copyright p, 
     .footer__copyright p:not(:first-child) {
         margin: 5px 0;

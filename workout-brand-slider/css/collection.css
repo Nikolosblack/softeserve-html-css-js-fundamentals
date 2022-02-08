@@ -56,14 +56,14 @@
 .collection__item .divider__wrapper .collection__divider {
   height: 2px;
   width: 18%;
-  background-color: #f40106;
+  background-color: var(--main-red-color);
 }
 
 .collection__item .btn__collection {
   font-size: 14px;
   font-weight: 700;
   line-height: 25.2px;
-  color: rgb(34, 35, 35);
+  color: var(--main-black-color);
   cursor: pointer;
 }
 
