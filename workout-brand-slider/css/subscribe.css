@@ -55,7 +55,7 @@
     color: var(--main-black-color);
     background-color: rgba(34, 35, 35, 0.12);
     border: none;
-    -webkit-border-radius: none;
+    -webkit-border-radius: 0px;
     border-radius: 0;
 }
 
@@ -72,7 +72,7 @@
     cursor: pointer;
     background-color: var(--main-red-color);
     border: none;
-    border-radius: 0;
+    -webkit-border-radius: 0px;
 }
 
 .form__subscribe input[type=submit]:hover {
