@@ -55,6 +55,7 @@
     color: var(--main-black-color);
     background-color: rgba(34, 35, 35, 0.12);
     border: none;
+    -webkit-border-radius: none;
     border-radius: 0;
 }
 

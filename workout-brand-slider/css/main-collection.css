@@ -31,7 +31,7 @@
     font-weight: 400;
     cursor: pointer;
     border: none;
-    color: #717474;
+    color: var(--main-gray-color);
     opacity: .7;
     padding: 15px 30px;
 }
@@ -41,7 +41,7 @@
 }
 
 .nav-tab.active{
-   border-bottom: 2.5px solid red;
+   border-bottom: 2.5px solid var(--main-red-color);
    opacity: 1;             
 }
  
@@ -87,7 +87,7 @@
 .main__collection__inner .btn__wrapper a {
     display: inline-block;
     background-color: var(--main-black-color);
-    color: #fff;
+    color: var(--main-white-color);
     font-size: 15px;
     font-weight: 700;
     padding: 15px 26px;
@@ -95,7 +95,7 @@
 }
 
 .main__collection__inner .btn__wrapper a:hover {
-    background-color: red;
+    background-color: var(--main-red-color);
 }
 
 @media(min-width:768px) {
