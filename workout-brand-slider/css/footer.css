@@ -131,6 +131,7 @@
     .footer__nav .footer__nav__item {
         flex-basis: 25%;
         margin: 0;
+        padding: 0;
     }
     .footer__nav__item img {
         margin-left: 0;
