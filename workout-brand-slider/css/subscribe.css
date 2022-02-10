@@ -55,7 +55,7 @@
     color: var(--main-black-color);
     background-color: rgba(34, 35, 35, 0.12);
     border: none;
-    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
     border-radius: 0;
 }
 
@@ -71,8 +71,8 @@
     font-weight: 700;
     cursor: pointer;
     background-color: var(--main-red-color);
-    border: none;
-    -webkit-border-radius: 0px;
+    -webkit-appearance: none;
+     border-radius: 0;
 }
 
 .form__subscribe input[type=submit]:hover {
