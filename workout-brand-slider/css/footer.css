@@ -20,10 +20,15 @@
 
 .footer__nav__item {
     padding: 0 15px;
+
 }
 
 .footer__nav__item:not(:first-child) {
     margin-top: 50px;
+}
+
+.footer__nav__item a {
+    display: block;
 }
 
 .footer__nav__item img {

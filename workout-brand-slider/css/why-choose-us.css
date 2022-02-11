@@ -39,7 +39,7 @@
 .card-item p {
     margin-top: 20px;
     font-family: 'PT Sans' ,sans-serif;
-    color: var(-main-gray-color);
+    color: var(--main-gray-color);
 }
 
 @media (min-width: 768px) {

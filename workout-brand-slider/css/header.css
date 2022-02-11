@@ -76,6 +76,7 @@ header .top_bar_contact a:hover {
   margin: 0 20px;
 }
 
+.navbar menu li a,
 .navbar ul li a {
   font-size: 16px;
   font-family: "PT Sans", sans-serif;
