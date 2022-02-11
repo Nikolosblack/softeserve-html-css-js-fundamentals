@@ -1,6 +1,6 @@
 .sale {
     padding-top: 35px;
-    padding-bottom: 80px;
+    padding-bottom: 25px;
     margin: auto;
 }
 
@@ -106,8 +106,7 @@
     }
     .sale__goods .sale-item-bg:nth-child(1),
     .sale__goods .sale-item-bg:nth-child(2),
-    .sale__goods .sale-item-bg:nth-child(3)
-    {
+    .sale__goods .sale-item-bg:nth-child(3) {
         margin-top: 0;
     }
 }

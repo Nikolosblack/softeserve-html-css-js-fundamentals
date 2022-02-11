@@ -270,7 +270,7 @@ header .top_bar_contact a:hover {
         font-family: "PT Sans", sans-serif;
         font-weight: 700;
         text-decoration: none;
-        color: #fff;
+        color: var(--main-white-color);
         cursor: pointer;
     }
     .nav__inner p {
@@ -279,7 +279,7 @@ header .top_bar_contact a:hover {
         font-family: "PT Sans", sans-serif;
         font-weight: 700;
         text-decoration: none;
-        color: #fff;
+        color: var(--main-white-color);
         margin-top:30px;
         text-align: center;
     }
@@ -318,7 +318,7 @@ header .top_bar_contact a:hover {
         width: 30px;
         height: 30px;
         border: 1px solid var(--divider-gray-color);
-        color: #fff;
+        color: var(--main-white-color);
     }
     .navigation_icons_wrapper .list_icons li a:hover {
         color: black;

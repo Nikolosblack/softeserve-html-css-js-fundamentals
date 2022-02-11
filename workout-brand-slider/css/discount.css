@@ -32,7 +32,7 @@
     font-size: 62px;
     line-height: 62px;
     font-weight: 400;
-    color: #fff;
+    color: var(--main-white-color);
     margin-top: 20px;
 }
 
@@ -43,7 +43,7 @@
 .discount_content .btn__wrapper .btn {
     font-family: 'PT Sans' ,sans-serif;
     color: #000;
-    background-color: #fff;
+    background-color: var(--main-white-color);
     display: inline-block;
     padding: 18px 30px;
     font-size: 16.5px;

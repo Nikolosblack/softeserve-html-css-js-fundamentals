@@ -1,9 +1,8 @@
+const countDate = new Date("November 16, 9:33:00 2022").getTime();
 
-var countDate = new Date("November 16, 9:33:00 2022").getTime();
-
-function DealOfTheMonth(){
-    var now = new Date().getTime();
-    gap = countDate - now;
+function DealOfTheMonth() {
+    const now = new Date().getTime();
+    const gap = countDate - now;
 
     const second = 1000;
     const minute = second * 60;
@@ -15,12 +14,13 @@ function DealOfTheMonth(){
     m = Math.trunc((gap % hour) / minute);
     s = Math.trunc((gap % minute) / second);
 
-    document.getElementById("day").innerHTML = d; 
+    document.getElementById("day").innerHTML = d;
     document.getElementById("hour").innerHTML = h;
     document.getElementById("minute").innerHTML = m;
     document.getElementById("second").innerHTML = s;
 }
 
-    setInterval(function(){
-        DealOfTheMonth();
-            },1000)
+setInterval(function() {
+    DealOfTheMonth();
+}, 1000)
+

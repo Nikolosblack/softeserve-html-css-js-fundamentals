@@ -29,7 +29,8 @@ a {
     display: inline-block;
 }
 
-.text-brand-color {
+.text-brand-color,
+.dot--color {
     color: var(--main-red-color); 
 }
 

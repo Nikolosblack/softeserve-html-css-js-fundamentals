@@ -1,7 +1,7 @@
 .footer {
     padding: 70px 24px  0 24px;
     background-color: var(--main-black-color);
-    color: #fff;
+    color: var( --main-white-color);
 }
 
 .footer__nav {
@@ -20,7 +20,6 @@
 
 .footer__nav__item {
     padding: 0 15px;
-
 }
 
 .footer__nav__item:not(:first-child) {
@@ -75,7 +74,7 @@
 
 .footer__nav__item li a {
     font-size: 16px;
-    color: #fff;
+    color: var(--main-white-color);
 }
 
 .footer__nav__item li a:hover {
@@ -102,7 +101,7 @@
     width: 30px;
     height: 30px;
     border: 1px solid var(--main-red-color);
-    color: #f40106;
+    color: var(--main-red-color);
 }
 
 .footer__icons li a:hover {
