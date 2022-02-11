@@ -77,8 +77,8 @@
 @media(min-width:768px) {
 
     .season {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .season__wrapper .season__item {
         flex-basis: 33%;
