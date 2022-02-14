@@ -12,7 +12,7 @@
     visibility: hidden; 
     opacity: 0; 
     z-index: 100;
-    transition: visibility 0s, opacity 2s;
+    transition: visibility 0s, opacity 1s;
 }
 
 .modal {

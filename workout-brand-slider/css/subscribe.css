@@ -46,7 +46,7 @@
     flex-direction: column;
 }
 
-.form__subscribe input[type=text] {
+.form__subscribe input[type=email] {
     display: block;
     width: 100%;
     padding: 15px 26px;
@@ -59,7 +59,7 @@
     border-radius: 0;
 }
 
-.form__subscribe input[type=text]:focus {
+.form__subscribe input[type=email]:focus {
     outline-color: #3b99fc;
 }
 
