@@ -19,8 +19,9 @@
     font-family: 'Bebas Neue', cursive;
     position: relative;
     background-color: #fff;
-    width: 30%;
-    height: 30%;
+    padding: 10px;
+    width: 40%;
+    height: 25%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,13 +31,18 @@
 }
 
 .modal img {
-    max-width: 100px;
+    max-width: 60px;
 }
 
 .modal p {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     color: greenyellow;
+    text-align: center;
+
+}
+.modal h2 {
+    font-size: 20px;
 
 }
 
@@ -54,4 +60,16 @@
     cursor: pointer;
 }
 
+@media(min-width:480px) {
+    .modal img {
+        max-width: 80px;
+    }
+    
+    .modal p {
+        font-size: 18px;
+    }
 
+    .modal h2 {
+        font-size: 24px;
+    }
+}
