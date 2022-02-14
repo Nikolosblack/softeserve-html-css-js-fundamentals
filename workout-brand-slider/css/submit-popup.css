@@ -19,9 +19,9 @@
     font-family: 'Bebas Neue', cursive;
     position: relative;
     background-color: #fff;
-    padding: 10px;
-    width: 40%;
-    height: 28%;
+    padding: 45px 50px 40px;
+    /* width: 40%; */
+    /* height: 28%; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,19 +31,32 @@
 }
 
 .modal img {
-    max-width: 60px;
+    max-width: 35px;
+    margin-bottom: 20px;
 }
 
 .modal p {
-    font-size: 14px;
-    font-weight: bold;
-    color: greenyellow;
+    font-size: 16px;
+ 
+    color: rgb(113, 116, 116);
     text-align: center;
+    margin-bottom: 20px;
 
 }
 .modal h2 {
-    font-size: 20px;
+    font-size: 16px;
+    color: rgb(113, 116, 116);
+    margin-bottom: 20px;
 
+}
+.modal  a {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    
 }
 
 .modal-bg-active {
@@ -61,15 +74,11 @@
 }
 
 @media(min-width:480px) {
-    .modal img {
-        max-width: 80px;
-    }
+   
     
     .modal p {
         font-size: 18px;
     }
 
-    .modal h2 {
-        font-size: 24px;
-    }
+  
 }
