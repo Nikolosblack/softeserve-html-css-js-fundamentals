@@ -25,7 +25,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border-top: 9px solid greenyellow;
+    border-top: 9px solid red;
     border-radius: 4px;
 }
 
