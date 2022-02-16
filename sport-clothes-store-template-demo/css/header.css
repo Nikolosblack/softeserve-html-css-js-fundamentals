@@ -1,0 +1,327 @@
+header .contact_red_bg {
+  padding: 8px 40px;
+  background: var(--main-red-color);
+}
+
+header .contact {
+  max-width: 100%;
+  display: none;
+}
+
+header .top_bar_contact p {
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--main-white-color);
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header .top_bar_contact a {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--main-white-color);
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+header .top_bar_contact a:hover {
+  text-decoration: underline;
+}
+
+.navbar-bg-dark {
+  background-color: var(--main-black-color);
+  padding: 30px 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_wrapper {
+  display: flex;
+}
+
+.nav-logo {
+  margin-left: 15px;
+  margin-right: 15px;
+  max-width: 168px;
+  z-index: 3;
+}
+
+.nav-logo img {
+  width: 100%;
+}
+
+.navbar .nav_list {
+  align-items: center;
+  flex-wrap: wrap;
+  display: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.navbar .nav_list li {
+  margin: 0 20px;
+}
+
+.navbar menu li a,
+.navbar ul li a {
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--main-white-color);
+  cursor: pointer;
+}
+
+.navbar .nav_list li a:after {
+  content: "";
+  display: block;
+  bottom: -5px;
+  height: 2px;
+  width: 0;
+  left: 0;
+  background-color: currentColor;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.navbar .nav_list li a:hover:after {
+  width: 100%;
+  color: var(--main-white-color);
+}
+
+.social_icons_wrapper {
+  display: none;
+}
+
+.social_icons_wrapper .list_icons {
+  display: flex;
+}
+
+.social_icons_wrapper .list_icons li {
+  margin-right: 7.5px;
+  margin-left: 7.5px;
+}
+
+.social_icons_wrapper .list_icons li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--divider-gray-color);
+}
+
+.social_icons_wrapper .list_icons li a .fab {
+  font-weight: 100;
+}
+
+.social_icons_wrapper .list_icons li a:hover {
+  background-color: var(--divider-gray-color);
+  color: var(--main-black-color);
+}
+
+.wrapper-menu {
+  width: 19px;
+  height: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+  z-index: 3;
+}
+
+.wrapper-menu.open {
+  transform: rotate(-45deg);
+}
+
+.line-menu {
+  background-color: var(--main-white-color);
+  border-radius: 5px;
+  width: 100%;
+  height: 4px;
+}
+
+.line-menu.half {
+  width: 50%;
+}
+
+.line-menu.start {
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: right;
+}
+
+.open .line-menu.start {
+  transform: rotate(-90deg) translateX(3px);
+}
+
+.line-menu.end {
+  align-self: flex-end;
+  transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  transform-origin: left;
+}
+
+.open .line-menu.end {
+  transform: rotate(-90deg) translateX(-3px);
+}
+
+@media (min-width: 992px) {
+
+  header .contact {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  header .top_bar_contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .nav_list {
+    display: flex;
+  }
+  .social_icons_wrapper {
+    display: block;
+  }
+  .wrapper-menu {
+    display: none;
+  }
+  .navigation-wrapper {
+      display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  header .top_bar_contact {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px) {
+    .navbar-bg-dark {
+        padding: 15px 30px;
+    }
+    nav .navigation-wrapper {
+        padding-top: 10px;
+    }
+    nav .nav__inner .nav_list li {
+        margin: 15px 0;
+    }
+    nav .nav__inner .nav_list li a,
+    nav .nav__inner p,
+    nav .nav__inner  a{
+        font-size: 14px;
+    }
+    nav .nav__inner p {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    body.lock {
+        overflow: hidden;
+    }
+    .navigation-wrapper.active {
+        left: 0;
+    }
+    .navigation-wrapper {
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(34, 35, 35) ;
+        z-index: 2;
+        padding: 50px 24px 0 24px;
+        transition: left 0.7s ease;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    .navigation-wrapper .nav__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav__inner .nav_list {
+        text-align: center;
+    }
+    .nav__inner .nav_list li {
+        margin: 20px 0;
+    }
+    .nav__inner .nav_list li a {
+        font-size: 16px;
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--main-white-color);
+        cursor: pointer;
+    }
+    .nav__inner p {
+        font-size: 14px;
+        line-height: 1.8;
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--main-white-color);
+        margin-top:30px;
+        text-align: center;
+    }
+    .nav__inner .contact_link {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__inner .contact_link a {
+        display: inline-block;
+        font-size: 14px;
+        line-height: 1.8;
+        font-family: "PT Sans", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--main-white-color);
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .nav__inner .contact_link a:hover {
+        text-decoration: underline;
+    }
+    .navigation_icons_wrapper {
+        margin-top: 30px;
+    }
+    .navigation_icons_wrapper .list_icons {
+        display: flex;
+    }
+    .navigation_icons_wrapper .list_icons li {
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    .navigation_icons_wrapper .list_icons li a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border: 1px solid var(--divider-gray-color);
+        color: var(--main-white-color);
+    }
+    .navigation_icons_wrapper .list_icons li a:hover {
+        color: black;
+        background-color: var(--main-white-color);
+    }
+} 

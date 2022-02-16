@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+    --main-red-color: rgb(244, 1, 6);
+    --main-black-color: rgb(34, 35, 35);
+    --main-gray-color: rgb(113, 116, 116);
+    --main-white-color: rgb(255, 255, 255);
+    --divider-gray-color:rgb(224, 224, 224);
+    --countdown-border:#9b9b9b;
+    font-family: 'PT Sans' ,sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+ul, menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.text-brand-color,
+.dot--color {
+    color: var(--main-red-color); 
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header.section_header {
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header.section_header > h2 {
+    position: relative;
+    font-size: 52px;
+    line-height: 1.14;
+    font-weight: 400;
+    color: var(--main-black-color); 
+    margin-bottom: 30px;
+}
+
+header.section_header > h2:after {
+    content:"";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%, -50%);
+    height: 2px;
+    width: 93.6px;
+    background-color: var(--divider-gray-color); 
+}
+
+header.section_header > p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'PT Sans' ,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--main-gray-color); 
+    text-transform: none; 
+}
+
+.hero_content .btn__wrapper {
+    margin-top: 50px;
+}
+
+.hero_content .btn__wrapper .btn {
+    font-family: 'PT Sans' ,sans-serif;
+    color: var(--main-white-color);
+    display: inline-block;
+    padding: 18px 30px;
+    font-size: 16.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero_content .btn__wrapper .btn img {
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.map {
+    min-height: 900px ;
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+            /* pointer-events: none; */
+}
